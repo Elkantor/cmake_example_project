@@ -1,0 +1,1 @@
+cmake -B../build_files -H. -GNinja -DCMAKE_BUILD_TYPE:STRING=Release
