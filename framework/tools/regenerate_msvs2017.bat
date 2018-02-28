@@ -1,0 +1,1 @@
+cmake -B../build_files -H.. -G "Visual Studio 15 2017 Win64"
