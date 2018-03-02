@@ -1,8 +1,9 @@
-cd ../build_files && ^
+rem cd ../build_files && ^
 @echo off
 echo.
 echo Visual Studio 2017 Win64 build:
 echo.
-msbuild Test.sln /t:Rebuild /p:Configuration=Release && ^
+rem msbuild Test.sln /t:Rebuild /p:Configuration=Release /GL && ^
+cmake --build ../build_files --config Release
 echo ====================================================== && ^
-cd ../tools
+rem cd ../tools
